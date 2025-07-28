@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    <script src="script.js" defer></script>
+        <header>
+            <h1 class="website-title">UNIT CONVERTER</h1>
+        </header>
+        <body class="main-wrapper">
+        <select id="menu" name="menu">
+            <option value="Temperature">Temperature</option>
+            <option value="Length / Distance">Length / Distance</option>
+            <option value="Weight / Mass">Weight / Mass</option>
+            <option value="Volume / Capacity">Volume / Capacity</option>
+            <option value="Speed">Speed</option>
+        </select>
+        </body>
+    <div class="conversion-settings">
+        <select id="units" name="unit-selector">
+            <option value="Celcius ↔ Fahrenheit">Celcius ↔ Fahrenheit</option>
+            <option value="Celcius ↔ Kelvin">Celcius ↔ Kelvin</option>
+        </select>
+    </div>
+    <div class="conversion-table">
+        <textarea placeholder="Input value" class="input-value"></textarea>
+        <button class="switch-button">⇌</button>
+        <textarea placeholder=".  .  ." class="value-output" readonly></textarea>
+        </div>
+        <button class="convert-button">Convert</button>
+        </body>
+</html>

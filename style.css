@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Edges';
+  src: url('fonts/Edges.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Edges', sans-serif;
+  color: rgb(179, 179, 179);
+}
+
+#menu,
+#units {
+  margin: auto;
+  height: 70px;
+  width: auto;
+  font-size: inherit;
+  text-align: center;
+}
+
+select {
+  border-width: 4px;
+  border-radius: 7px;
+  border-color: #333;
+  background-color: #333;
+}
+
+select:focus {
+  border-width: 4px;
+  border-radius: 7px;
+  border-color: rgb(179, 179, 179);
+}
+
+.conversion-table {
+  padding-top: 60px;
+  display: flex;
+  gap: 30px; /* space between buttons */
+}
+
+.conversion-settings {
+  padding-top: 60px;
+  display: flex;
+  gap: 350px; /* space between buttons */
+}
+
+html {
+  background-color: #111;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+textarea {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-wrap: wrap;
+  width: 370px;
+  resize: none;
+  background-color: #333;
+  border-radius: 6px;
+  border-width: 2px;
+}
+
+button {
+  background-color: #333;
+  border: none;
+  background-color: #555;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.convert-button {
+  margin-top: 100px;
+  font-size: 30px;
+  height: 70px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.switch-button {
+  width: 100px;
+  font-size: 40px;
+}
+
+.website-title {
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Edges', sans-serif;
+  letter-spacing: 4px;
+}
